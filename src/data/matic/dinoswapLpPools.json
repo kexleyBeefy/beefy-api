@@ -1,5 +1,43 @@
 [
   {
+    "name": "dinoswap-sfi-eth",
+    "address": "0x7C07CecD8cdd65C0daD449808cc5f9AD74C22bd1",
+    "decimals": "1e18",
+    "poolId": 14,
+    "chainId": 137,
+    "lp0": {
+      "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+      "oracle": "tokens",
+      "oracleId": "ETH",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0x35b937583F04A24963eb685F728a542240f28Dd8",
+      "oracle": "tokens",
+      "oracleId": "SFI",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "dinoswap-arpa-eth",
+    "address": "0x590F5E967d73eA06DAE9aED2788108DCF52dA269",
+    "decimals": "1e18",
+    "poolId": 13,
+    "chainId": 137,
+    "lp0": {
+      "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+      "oracle": "tokens",
+      "oracleId": "ETH",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xEE800B277A96B0f490a1A732e1D6395FAD960A26",
+      "oracle": "tokens",
+      "oracleId": "ARPA",
+      "decimals": "1e18"
+    }
+  },
+  {
     "name": "dinoswap-dino-eth",
     "address": "0x9f03309A588e33A239Bf49ed8D68b2D45C7A1F11",
     "decimals": "1e18",

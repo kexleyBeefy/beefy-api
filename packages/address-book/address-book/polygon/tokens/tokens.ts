@@ -1411,6 +1411,28 @@ const _tokens = {
       'Luna directly benefits from the economic growth of the Terra economy, and it suffers from contractions of the Terra coin',
     logoURI: 'https://etherscan.io/token/images/terra-luna_32.png',
   },
+  SFI: {
+    name: 'Spice',
+    symbol: 'SFI',
+    address: '0x35b937583F04A24963eb685F728a542240f28Dd8',
+    chainId: 137,
+    decimals: 18,
+    website: 'https://saffron.finance/',
+    description:
+      'Saffron is a protocol for tokenizing on-chain assets, including contracts that otherwise impair access to utilized capital. Tokenized ownership of on-chain assets gives liquidity providers greater flexibility and uninterrupted access to their underlying collateral while enabling leveraged staking and bespoke risk management.',
+    logoURI: 'https://pbs.twimg.com/profile_images/1368918769482031106/rYaYvNIT_400x400.png',
+  },
+  ARPA: {
+    name: 'ARPA',
+    symbol: 'ARPA',
+    address: '0xEE800B277A96B0f490a1A732e1D6395FAD960A26',
+    chainId: 137,
+    decimals: 18,
+    website: 'https://arpachain.io/',
+    description:
+      'ARPA is a blockchain-based layer 2 solution for privacy-preserving computation, enabled by Multi-Party Computation (“MPC”). Founded in April 2018, the goal of ARPA is to separate data utility from ownership and enable data renting.',
+    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/200x200/4039.png',
+  },
 } as const;
 
 export const tokens: ConstRecord<typeof _tokens, Token> = _tokens;

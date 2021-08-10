@@ -8,5 +8,15 @@
     "decimals": "1e18",
     "borrowDepth": 4,
     "borrowPercent": 0.64
+  },
+  {
+    "name": "ironlend-usdc",
+    "token": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "rToken": "0xbEbAD52f3A50806b25911051BabDe6615C8e21ef",
+    "oracle": "tokens",
+    "oracleId": "USDC",
+    "decimals": "1e18",
+    "borrowDepth": 4,
+    "borrowPercent": 0.74
   }
 ]

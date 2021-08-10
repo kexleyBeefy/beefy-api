@@ -1,0 +1,12 @@
+[
+  {
+    "name": "ironlend-eth",
+    "token": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+    "rToken": "0x186C4137136970739b472A8192D3D2AFc5543B61",
+    "oracle": "tokens",
+    "oracleId": "ETH",
+    "decimals": "1e18",
+    "borrowDepth": 4,
+    "borrowPercent": 0.64
+  }
+]

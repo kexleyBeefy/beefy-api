@@ -53,6 +53,30 @@ const _tokens = {
       'Curve is an exchange liquidity pool on Ethereum. Curve is designed for extremely efficient stablecoin trading and low risk, supplemental fee income for liquidity providers, without an opportunity cost.',
     logoURI: 'https://external-content.duckduckgo.com/ip3/resources.curve.fi.ico',
   },
+  COMFY: {
+    chainId: 1666600000,
+    address: '0x702f78E81Cf3DfaE89648b5a9e2e1aa8db1De546',
+    decimals: 18,
+    name: 'COMFY',
+    symbol: 'COMFY',
+    website: 'https://comfy.money/',
+    description:
+      'A VenomDAO algorithmic stablecoin pegged to $ONE via seigniorage on Harmony.',
+    logoURI:
+      'https://comfy.money/static/media/COMFY-logo-DullLavender-White-Fill.a1f3145e.svg',
+  },
+  CSHARE: {
+    chainId: 1666600000,
+    address: '0x8fd44A4fB89e26A97B0eDf99535236D415D03E50',
+    decimals: 18,
+    name: 'CSHARE',
+    symbol: 'CSHARE',
+    website: 'https://comfy.money/',
+    description:
+      'A VenomDAO algorithmic stablecoin pegged to $ONE via seigniorage on Harmony.',
+    logoURI:
+      'https://comfy.money/static/media/CSHARE-logo-YellowMetal.00a60bb5.svg',
+  },
   WBTC: {
     chainId: 1666600000,
     address: '0x3095c7557bCb296ccc6e363DE01b760bA031F2d9',

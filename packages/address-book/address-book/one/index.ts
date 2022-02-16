@@ -1,5 +1,6 @@
 import { beefyfinance } from './platforms/beefyfinance';
 import { sushi } from './platforms/sushi';
+import { viper } from './platforms/viper';
 import { tokens } from './tokens/tokens';
 import { convertSymbolTokenMapToAddressTokenMap } from '../../util/convertSymbolTokenMapToAddressTokenMap';
 import Chain from '../../types/chain';
@@ -9,6 +10,7 @@ const _one = {
   platforms: {
     beefyfinance,
     sushi,
+    viper,
   },
   tokens,
   tokenAddressMap: convertSymbolTokenMapToAddressTokenMap(tokens),

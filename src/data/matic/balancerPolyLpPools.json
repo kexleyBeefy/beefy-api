@@ -422,7 +422,7 @@
     "tokens": [
       {
         "oracle": "tokens",
-        "oracleId": "LINK",
+        "oracleId": "oldLINK",
         "decimals": "1e18"
       },
       {
@@ -464,7 +464,7 @@
       },
       {
         "oracle": "tokens",
-        "oracleId": "LINK",
+        "oracleId": "oldLINK",
         "decimals": "1e18"
       },
       {
